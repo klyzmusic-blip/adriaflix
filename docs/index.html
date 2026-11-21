@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AdriaFlix 🌊</title>
+<link rel="icon" href="assets/logo.png">
+<style>
+  :root { --azul:#4A90D9; --marinho:#12315f; --rosa:#FFB6C1; --ouro:#FFD700; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(rgba(18,49,95,.78), rgba(18,49,95,.92)), url("assets/background.png") center/cover fixed;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 20px 60px; text-align: center; }
+  img.logo { width: 132px; height: 132px; border-radius: 28px; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+  h1 { margin: 18px 0 6px; font-size: 2rem; }
+  p.desc { margin: 0 auto 26px; max-width: 460px; line-height: 1.5; opacity: .92; }
+  a.botao {
+    display: block; margin: 12px auto; max-width: 340px; padding: 15px 18px; border-radius: 14px;
+    font-weight: 700; text-decoration: none; font-size: 1.05rem;
+  }
+  a.principal { background: var(--rosa); color: var(--marinho); }
+  a.secundario { background: rgba(255,255,255,.14); color: #fff; border: 1px solid rgba(255,255,255,.3); }
+  .url {
+    margin: 14px auto 0; max-width: 520px; padding: 10px 12px; border-radius: 10px; word-break: break-all;
+    background: rgba(0,0,0,.28); font: .85rem ui-monospace, Menlo, monospace; user-select: all;
+  }
+  h2 { margin: 36px 0 12px; font-size: 1.1rem; color: var(--ouro); }
+  ul { list-style: none; padding: 0; margin: 0; text-align: left; }
+  li { padding: 10px 14px; margin: 8px 0; background: rgba(255,255,255,.1); border-radius: 12px; }
+  li small { opacity: .75; }
+  footer { margin-top: 36px; font-size: .8rem; opacity: .7; line-height: 1.5; }
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="assets/logo.png" alt="Logo AdriaFlix">
+  <h1>AdriaFlix 🌊</h1>
+  <p class="desc">Seu streaming favorito, do jeitinho da Ponyo 🌊 — Filmes clássicos, séries e documentários em domínio público.</p>
+  <a class="botao principal" href="stremio://klyzmusic-blip.github.io/adriaflix/manifest.json">⭐ Instalar no Stremio</a>
+  <a class="botao secundario" href="https://klyzmusic-blip.github.io/adriaflix/manifest.json">📋 Abrir manifest.json</a>
+  <div class="url">https://klyzmusic-blip.github.io/adriaflix/manifest.json</div>
+  <h2>O que tem aqui</h2>
+  <ul>
+    <li>🎬 <b>Filmes Clássicos</b> <small>— 39 filmes</small></li>
+    <li>📺 <b>Séries &amp; Desenhos Clássicos</b> <small>— 30 séries</small></li>
+    <li>📚 <b>Documentários</b> <small>— 30 filmes</small></li>
+  </ul>
+  <footer>
+    Tudo vem de fontes abertas e legais. A origem aparece na sinopse de cada título.<br>
+    Atualizado em 21/11/2026.
+  </footer>
+</main>
+</body>
+</html>
